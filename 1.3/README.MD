@@ -1,6 +1,6 @@
 ### Задание 1.
 
-<br>Манифесты:<br>
+<br>Манифесты:
 <br>deployment.yml
 <br>svc.yml
 <br>mt.yml
