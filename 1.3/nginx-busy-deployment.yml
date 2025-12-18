@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-busy-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-busy
+  template:
+    metadata:
+      labels:
+        app: nginx-busy
+    spec:
+      initContainers:
+      - name: wait-nginx-service
+        image: busybox:1.36
+        command: ['sh', '-c', "until nslookup nginx-busy-svc.default.svc.cluster.local; do echo 'ожидание nginx-busy-svc'; sleep 2; done"]
+      containers:
+      - name: nginx
+        image: nginx:1.27
+        ports:
+        - containerPort: 80
