@@ -1,9 +1,9 @@
 ### Задание 1.
 
-Манифесты:
-deployment.yml
-svc.yml
-mt.yml
+<br>Манифесты:<br>
+<br>deployment.yml
+<br>svc.yml
+<br>mt.yml
 
 ![image1.png](image1.png)
 ![image2.png](image2.png)
@@ -12,9 +12,9 @@ mt.yml
 
 ### Задание 2.
 
-Манифесты:
-nginx-busy-deployment.yml
-nginx-busy-svc.yml
+<br>Манифесты:
+<br>nginx-busy-deployment.yml
+<br>nginx-busy-svc.yml
 
 ![image3.png](image3.png)
 ![image4.png](image4.png)
