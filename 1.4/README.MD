@@ -4,7 +4,7 @@
 1. svc1.yml
 1. multitool-pod.yml
 <br>
-![image1.png](img/image1.png)
+![image1.png](./img/image1.png)
 <br>
 
 ### Задание 2.
