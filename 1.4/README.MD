@@ -9,6 +9,5 @@
 ### Задание 2.
 **Манифесты:**
 1. srv2.yml
-</br>
 ![image2.png](img/image2.png)
 ![image3.png](img/image3.png)
